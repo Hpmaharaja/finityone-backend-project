@@ -1,10 +1,16 @@
 # FinityOne Backend Engineer Take-Home Project
 
-  The stages of the take home project are in order of difficulty, so if you feel something is easier, please do this IN ORDER. 
+  # Introduction
+
+  The stages of the take home project are in order of difficulty, so if you feel something is easier, please do this IN ORDER.
+
+  # Instructions
+
+  The stages of the take home project are in order of difficulty, so if you feel something is easier, please do this IN ORDER.
 
 ## STAGE #1
 
-  # Simple Endpoints
+  ### Simple Endpoints
 
   The first task is very simple in terms of creating the endpoints to send an email into a queue in the database
 
