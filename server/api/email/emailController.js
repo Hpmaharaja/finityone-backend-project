@@ -1,6 +1,6 @@
 // -------------------------------------------------
 // [CONTROLLER] Email Controller
-// ADD CODE ANYWHERE TO THIS FILE AS NEEDED
+// ADD/WRITE CODE ANYWHERE TO THIS FILE AS NEEDED
 // -------------------------------------------------
 var express = require('express'),
     emailRoutes = express.Router();
@@ -8,9 +8,10 @@ var express = require('express'),
 
 // *****************************************************************************
 // -----------------------------------
-// CREATE
+// STAGE #1
+// CODE BELOW - take email info, and return as a response
 // -----------------------------------
-emailRoutes.post('/', function(req, res) {
+emailRoutes.post('/returnEmailContent', function(req, res) {
 
 });
 // *****************************************************************************
@@ -19,16 +20,10 @@ emailRoutes.post('/', function(req, res) {
 
 // *****************************************************************************
 // -----------------------------------
-// READ [GET] EMAILS FOR A CLIENT
+// STAGE #2
+// CODE BELOW - STORE EMAIL INFO INTO DATABASE
 // -----------------------------------
-emailRoutes.get('/', function(req, res) {
-
-});
-
-// -----------------------------------
-// READ [GET] EMAIL INFO
-// -----------------------------------
-emailRoutes.post('/', function(req, res) {
+emailRoutes.post('/storeEmailIntoDatabase', function(req, res) {
 
 });
 // *****************************************************************************
@@ -37,22 +32,25 @@ emailRoutes.post('/', function(req, res) {
 
 // *****************************************************************************
 // -----------------------------------
-// UPDATE EMAIL
+// STAGE #3
+// CODE BELOW - UPDATE EMAIL INFO
 // -----------------------------------
-emailRoutes.patch('/', function(req, res) {
+emailRoutes.post('/updateEmail', function(req, res) {
 
 });
 // *****************************************************************************
 
 
-
 // *****************************************************************************
 // -----------------------------------
-// DELETE EMAIL
+// STAGE #4
+// CODE BELOW - GET ALL EMAILS IN SYSTEM DATABASE
 // -----------------------------------
-emailRoutes.delete('/', function(req, res) {
+emailRoutes.post('/getAllEmails', function(req, res) {
 
 });
 // *****************************************************************************
+
+
 
 module.exports = emailRoutes;
