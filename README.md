@@ -17,7 +17,11 @@
   The stages of the take home project are in order of difficulty, so if you feel something is easier, please try doing this IN ORDER. For example,
   the first task stage is the easiest, while the last task stage is the hardest.
 
+  Clone the repository, and begin by coding within.
+
   As a helper, you have 1 lifeline to get help from Heran (heran@finityone.com). Send an email to setup a Google Hangouts call to go over the lifeline.
+
+  SUBMISSION: Email a zipped folder of your entire cloned repository with your work to heran@finityone.com
 
 ## STAGE #1
 
