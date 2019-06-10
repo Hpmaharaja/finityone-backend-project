@@ -7,7 +7,7 @@
   to learn, adapt, and deliver code that works. Obviously, there are many optimizations that are possible, but getting the core delivered is
   the essence of the business at FinityOne. We hope to see the deliverance of the candidate through this project.
 
-  DEADLINE: June 14, 2019. (Note: You don't have to finish everything, but do your best!)
+  DEADLINE: June 16, 2019 @ 12 PM MIDNIGHT. (Note: You don't have to finish everything, but do your best!)
 
   # Instructions
 
@@ -17,7 +17,9 @@
   The stages of the take home project are in order of difficulty, so if you feel something is easier, please try doing this IN ORDER. For example,
   the first task stage is the easiest, while the last task stage is the hardest.
 
-  Clone the repository, and begin by coding within.
+  Clone the repository, `cd server && npm install`, and begin by coding within. To run the server, run `npm start` within the server folder.
+
+  NOTE: You need to install Node before starting developing on the project.
 
   As a helper, you have 1 lifeline to get help from Heran (heran@finityone.com). Send an email to setup a Google Hangouts call to go over the lifeline.
 
